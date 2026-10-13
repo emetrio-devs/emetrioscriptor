@@ -1,0 +1,584 @@
+# Copyright (C) 2026 Emetrio
+# This file is distributed under the same license as the Emetrio Scriptor plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Emetrio Scriptor 1.0.0\n"
+"POT-Creation-Date: 2026-10-13 09:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WP-CLI\n"
+
+#: emetrio-scriptor.php:1372
+msgid "#"
+msgstr ""
+
+#: emetrio-scriptor.php:1159
+#. translators: %1$s: last scheduled run date/time, %2$s: outcome message
+msgid "%1$s — %2$s"
+msgstr ""
+
+#: emetrio-scriptor.php:1020
+msgid "AI Provider"
+msgstr ""
+
+#: emetrio-scriptor.php:710
+msgid "AI generation failed — check debug.log"
+msgstr ""
+
+#: emetrio-scriptor.php:1822
+msgid "AI returned empty result."
+msgstr ""
+
+#: emetrio-scriptor.php:839
+msgid "API Logs"
+msgstr ""
+
+#: emetrio-scriptor.php:837 emetrio-scriptor.php:1180
+msgid "API Reference"
+msgstr ""
+
+#: emetrio-scriptor.php:884
+msgid "Allow duplicates (creates new with unique slug)"
+msgstr ""
+
+#: emetrio-scriptor.php:1245
+msgid "Alternatively, for older Apache versions, try:"
+msgstr ""
+
+#: emetrio-scriptor.php:1243
+msgid "Authorization Headers Stripped:"
+msgstr ""
+
+#: emetrio-scriptor.php:1005
+msgid "Auto-Generation Scheduler"
+msgstr ""
+
+#: emetrio-scriptor.php:827
+msgid "Back to Posts"
+msgstr ""
+
+#: emetrio-scriptor.php:883
+msgid "Block post & return 409 error"
+msgstr ""
+
+#: emetrio-scriptor.php:835 emetrio-scriptor.php:912
+msgid "Brand DNA"
+msgstr ""
+
+#: emetrio-scriptor.php:962
+msgid "Brand Voice & Tone"
+msgstr ""
+
+#: emetrio-scriptor.php:954
+msgid "Business Type"
+msgstr ""
+
+#: emetrio-scriptor.php:1291
+msgid "Category (comma-separated)"
+msgstr ""
+
+#: emetrio-scriptor.php:714
+msgid "Checking/Running scheduled execution..."
+msgstr ""
+
+#: emetrio-scriptor.php:886
+msgid "Choose what happens when an incoming post matches an existing post title."
+msgstr ""
+
+#: emetrio-scriptor.php:1352
+msgid "Clear Logs"
+msgstr ""
+
+#: emetrio-scriptor.php:1349
+msgid "Clear all API logs? This cannot be undone."
+msgstr ""
+
+#: emetrio-scriptor.php:1237
+msgid "Click Send."
+msgstr ""
+
+#: emetrio-scriptor.php:989
+msgid "Comma-separated list of topics the AI should not cover."
+msgstr ""
+
+#: emetrio-scriptor.php:834
+msgid "Configuration"
+msgstr ""
+
+#: emetrio-scriptor.php:1284
+msgid "Content"
+msgstr ""
+
+#: emetrio-scriptor.php:920
+msgid "Content Language"
+msgstr ""
+
+#: emetrio-scriptor.php:1185 emetrio-scriptor.php:1201
+msgid "Copy"
+msgstr ""
+
+#: emetrio-scriptor.php:1213
+msgid "Copy the generated 24-character password (it will not be shown again)."
+msgstr ""
+
+#: emetrio-scriptor.php:1231
+msgid "Create a new POST request in Postman."
+msgstr ""
+
+#: emetrio-scriptor.php:1063
+msgid "Daily"
+msgstr ""
+
+#: emetrio-scriptor.php:1065 emetrio-scriptor.php:1102
+msgid "Day of the Month"
+msgstr ""
+
+#: emetrio-scriptor.php:869
+msgid "Default Post Status"
+msgstr ""
+
+#: emetrio-scriptor.php:1023
+msgid "Default preferred AI Provider"
+msgstr ""
+
+#: emetrio-scriptor.php:913
+msgid "Define your brand identity so AI-generated blog content stays on-brand every time."
+msgstr ""
+
+#: emetrio-scriptor.php:957
+msgid "Describe your business, industry, and what you offer."
+msgstr ""
+
+#: emetrio-scriptor.php:872
+msgid "Draft"
+msgstr ""
+
+#: emetrio-scriptor.php:880
+msgid "Duplicate Titles Behavior"
+msgstr ""
+
+#: emetrio-scriptor.php:895
+msgid "Edit Posts (Contributor and up)"
+msgstr ""
+
+#: emetrio-scriptor.php:1348
+msgid "Emetrio Scriptor API Logs"
+msgstr ""
+
+#: emetrio-scriptor.php:30
+msgid "Emetrio Scriptor Log"
+msgstr ""
+
+#: emetrio-scriptor.php:29
+msgid "Emetrio Scriptor Logs"
+msgstr ""
+
+#: emetrio-scriptor.php:1011
+msgid "Enable Auto Generation"
+msgstr ""
+
+#: emetrio-scriptor.php:1015
+msgid "Enable background AI blog generation"
+msgstr ""
+
+#: emetrio-scriptor.php:1224
+msgid "Ensure an AI provider or AI connector plugin is active on your WordPress site (using the standard WordPress AI / AI Client framework)."
+msgstr ""
+
+#: emetrio-scriptor.php:1212
+msgid "Enter an App Name (e.g. \"Emetrio Scriptor Client\") and click \"Add New Application Password\"."
+msgstr ""
+
+#: emetrio-scriptor.php:1232
+msgid "Enter the REST Endpoint URL shown above."
+msgstr ""
+
+#: emetrio-scriptor.php:711
+msgid "Error communicating with the server — check debug.log"
+msgstr ""
+
+#: emetrio-scriptor.php:717
+msgid "Error loading more logs — check debug.log"
+msgstr ""
+
+#: emetrio-scriptor.php:1691
+msgid "Every 5 Minutes (Emetrio Scriptor)"
+msgstr ""
+
+#: emetrio-scriptor.php:1188
+msgid "Example JSON Request Payload:"
+msgstr ""
+
+#: emetrio-scriptor.php:1298
+msgid "Excerpt"
+msgstr ""
+
+#: emetrio-scriptor.php:1838
+#. translators: %1$s: error code, %2$s: error message
+msgid "Failed — [%1$s] %2$s"
+msgstr ""
+
+#: emetrio-scriptor.php:1305
+msgid "Featured Image"
+msgstr ""
+
+#: emetrio-scriptor.php:1084
+msgid "Friday"
+msgstr ""
+
+#: emetrio-scriptor.php:1265
+msgid "Generate with AI"
+msgstr ""
+
+#: emetrio-scriptor.php:709
+msgid "Generating with AI"
+msgstr ""
+
+#: emetrio-scriptor.php:981
+msgid "Geographic regions you serve."
+msgstr ""
+
+#: emetrio-scriptor.php:1208
+#. translators: %1$s: opening link tag, %2$s: closing link tag
+msgid "Go to %1$sUsers -> Profile%2$s in your WordPress Dashboard."
+msgstr ""
+
+#: emetrio-scriptor.php:1233
+msgid "Go to Authorization → Basic Auth."
+msgstr ""
+
+#: emetrio-scriptor.php:1236
+msgid "Go to Body → raw → JSON and paste the example JSON payload above."
+msgstr ""
+
+#: emetrio-scriptor.php:1242
+msgid "HTTPS Requirement:"
+msgstr ""
+
+#: emetrio-scriptor.php:965
+msgid "How should the AI sound? (e.g., formal, casual, witty, inspirational)"
+msgstr ""
+
+#: emetrio-scriptor.php:1222
+msgid "How to Setup & Authorize AI Connectors:"
+msgstr ""
+
+#: emetrio-scriptor.php:1203
+msgid "How to Setup Authentication (Application Passwords):"
+msgstr ""
+
+#: emetrio-scriptor.php:1374
+msgid "IP Address"
+msgstr ""
+
+#: emetrio-scriptor.php:1124
+msgid "If \"Once\" selected, generation will run on this date (server time)."
+msgstr ""
+
+#: emetrio-scriptor.php:1240
+msgid "Important Production / Live Server Tips:"
+msgstr ""
+
+#: emetrio-scriptor.php:1214
+msgid "In your external agent (like OpenClaw, Python script, or Postman), use standard HTTP Basic Authentication with:"
+msgstr ""
+
+#: emetrio-scriptor.php:70 emetrio-scriptor.php:109
+msgid "Insufficient permissions."
+msgstr ""
+
+#: emetrio-scriptor.php:1149
+msgid "Last Action"
+msgstr ""
+
+#: emetrio-scriptor.php:1401
+msgid "Load More"
+msgstr ""
+
+#: emetrio-scriptor.php:716
+msgid "Loading..."
+msgstr ""
+
+#: emetrio-scriptor.php:1258
+msgid "Local API Tester"
+msgstr ""
+
+#: emetrio-scriptor.php:896
+msgid "Manage Options (Admin Only)"
+msgstr ""
+
+#: emetrio-scriptor.php:1243
+msgid "Many shared hosts (like Apache or Nginx) filter out the HTTP Authorization header by default. If you receive \"Insufficient permissions\" (403) or \"unauthorized\" errors on live servers, add the following to your site's .htaccess file:"
+msgstr ""
+
+#: emetrio-scriptor.php:856
+msgid "Max requests allowed within the window timeframe."
+msgstr ""
+
+#: emetrio-scriptor.php:1080
+msgid "Monday"
+msgstr ""
+
+#: emetrio-scriptor.php:1225
+msgid "Navigate to Settings → Connector Approvals in your WordPress Dashboard and accept/allow access for Emetrio Scriptor."
+msgstr ""
+
+#: emetrio-scriptor.php:1142
+msgid "Next Scheduled Run"
+msgstr ""
+
+#: emetrio-scriptor.php:1407
+msgid "No logged requests found yet."
+msgstr ""
+
+#: emetrio-scriptor.php:1164
+msgid "No scheduled action has run yet."
+msgstr ""
+
+#: emetrio-scriptor.php:1066
+msgid "Once (specific date)"
+msgstr ""
+
+#: emetrio-scriptor.php:1375
+msgid "Outcome / Message"
+msgstr ""
+
+#: emetrio-scriptor.php:1217
+msgid "Password:"
+msgstr ""
+
+#: emetrio-scriptor.php:1235
+msgid "Password: your WordPress Application Password."
+msgstr ""
+
+#: emetrio-scriptor.php:873
+msgid "Pending Review"
+msgstr ""
+
+#: emetrio-scriptor.php:846
+msgid "Plugin Settings"
+msgstr ""
+
+#: emetrio-scriptor.php:894
+msgid "Publish Posts (Author/Editor/Admin)"
+msgstr ""
+
+#: emetrio-scriptor.php:1322
+msgid "Publish Status"
+msgstr ""
+
+#: emetrio-scriptor.php:1326
+msgid "Publish instantly (uncheck to save as draft)"
+msgstr ""
+
+#: emetrio-scriptor.php:838
+msgid "Quick Tester"
+msgstr ""
+
+#: emetrio-scriptor.php:1182
+msgid "REST Endpoint URL:"
+msgstr ""
+
+#: emetrio-scriptor.php:853
+msgid "Rate Limit (Requests)"
+msgstr ""
+
+#: emetrio-scriptor.php:861
+msgid "Rate Limit Window (Seconds)"
+msgstr ""
+
+#: emetrio-scriptor.php:1355
+msgid "Recent API requests and publication outcomes logged via Emetrio Scriptor."
+msgstr ""
+
+#: emetrio-scriptor.php:891
+msgid "Required Capability"
+msgstr ""
+
+#: emetrio-scriptor.php:1333
+msgid "Run Local Tester"
+msgstr ""
+
+#: emetrio-scriptor.php:1121
+msgid "Run Once On"
+msgstr ""
+
+#: emetrio-scriptor.php:1085
+msgid "Saturday"
+msgstr ""
+
+#: emetrio-scriptor.php:995
+msgid "Save Brand DNA"
+msgstr ""
+
+#: emetrio-scriptor.php:904
+msgid "Save Configuration"
+msgstr ""
+
+#: emetrio-scriptor.php:1172
+msgid "Save Scheduler"
+msgstr ""
+
+#: emetrio-scriptor.php:1060
+msgid "Schedule Frequency"
+msgstr ""
+
+#: emetrio-scriptor.php:715
+msgid "Scheduled time has passed. To run again, update the scheduler settings."
+msgstr ""
+
+#: emetrio-scriptor.php:713
+msgid "Scheduled:"
+msgstr ""
+
+#: emetrio-scriptor.php:836
+msgid "Scheduler"
+msgstr ""
+
+#: emetrio-scriptor.php:1211
+msgid "Scroll down to the \"Application Passwords\" section."
+msgstr ""
+
+#: emetrio-scriptor.php:718
+msgid "Select Featured Image"
+msgstr ""
+
+#: emetrio-scriptor.php:1135
+#. translators: %s: configured schedule timezone name
+msgid "Select the time of the day when the generation should occur. (Timezone: %s)"
+msgstr ""
+
+#: emetrio-scriptor.php:898
+msgid "Select user capability constraints for publishing API posts."
+msgstr ""
+
+#: emetrio-scriptor.php:978
+msgid "Service Area"
+msgstr ""
+
+#: emetrio-scriptor.php:1271
+msgid "Simulate sending a payload to your Emetrio Scriptor publish endpoint local to check validation, media handling, and categories."
+msgstr ""
+
+#: emetrio-scriptor.php:1338
+msgid "Simulation API Response:"
+msgstr ""
+
+#: emetrio-scriptor.php:1752
+msgid "Skipped — scheduler disabled"
+msgstr ""
+
+#: emetrio-scriptor.php:1064 emetrio-scriptor.php:1072
+msgid "Specific Weekdays"
+msgstr ""
+
+#: emetrio-scriptor.php:1376
+msgid "Status Code"
+msgstr ""
+
+#: emetrio-scriptor.php:875
+msgid "Status used for posts created via the REST API and scheduled publishing."
+msgstr ""
+
+#: emetrio-scriptor.php:1874
+#. translators: %1$s: generation time, %2$s: AI provider suffix (may be empty)
+msgid "Success — generated today at %1$s%2$s."
+msgstr ""
+
+#: emetrio-scriptor.php:1086
+msgid "Sunday"
+msgstr ""
+
+#: emetrio-scriptor.php:1315
+msgid "Tags (comma-separated)"
+msgstr ""
+
+#: emetrio-scriptor.php:970
+msgid "Target Audience"
+msgstr ""
+
+#: emetrio-scriptor.php:712
+msgid "Target local date/time: "
+msgstr ""
+
+#: emetrio-scriptor.php:1229
+msgid "Test in Postman:"
+msgstr ""
+
+#: emetrio-scriptor.php:1217
+msgid "The 24-character application password (including spaces)"
+msgstr ""
+
+#: emetrio-scriptor.php:1083
+msgid "Thursday"
+msgstr ""
+
+#: emetrio-scriptor.php:864
+msgid "Time frame sliding window in seconds."
+msgstr ""
+
+#: emetrio-scriptor.php:1373
+msgid "Timestamp"
+msgstr ""
+
+#: emetrio-scriptor.php:1277
+msgid "Title"
+msgstr ""
+
+#: emetrio-scriptor.php:986
+msgid "Topics to Avoid"
+msgstr ""
+
+#: emetrio-scriptor.php:1129
+msgid "Trigger Hour"
+msgstr ""
+
+#: emetrio-scriptor.php:732
+msgid "Try Emetrio Scriptor"
+msgstr ""
+
+#: emetrio-scriptor.php:1081
+msgid "Tuesday"
+msgstr ""
+
+#: emetrio-scriptor.php:1226
+msgid "Under Emetrio Scriptor → Scheduler, select your preferred AI provider or leave it as \"Default preferred AI Provider\"."
+msgstr ""
+
+#: emetrio-scriptor.php:719
+msgid "Use this image"
+msgstr ""
+
+#: emetrio-scriptor.php:1216
+msgid "Username:"
+msgstr ""
+
+#: emetrio-scriptor.php:1234
+msgid "Username: your WordPress username."
+msgstr ""
+
+#: emetrio-scriptor.php:1082
+msgid "Wednesday"
+msgstr ""
+
+#: emetrio-scriptor.php:973
+msgid "Who are you writing for? Be specific."
+msgstr ""
+
+#: emetrio-scriptor.php:1242
+msgid "WordPress Application Passwords are only active by default when your site is served over secure HTTPS connections."
+msgstr ""
+
+#: emetrio-scriptor.php:785
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: emetrio-scriptor.php:1216
+msgid "Your WordPress login username"
+msgstr ""

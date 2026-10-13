@@ -1,0 +1,495 @@
+/* Emetrio Scriptor Dashboard Admin Styles */
+
+.emetrio-scriptor-wrap {
+    margin: 20px 20px 0 0;
+    max-width: 1100px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #1d2327;
+}
+
+.emetrio-scriptor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.emetrio-scriptor-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.emetrio-scriptor-logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #111;
+    background: linear-gradient(135deg, #3f51b5 0%, #00bcd4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Tabs */
+.emetrio-scriptor-tabs-nav {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d8dee4;
+    padding-bottom: 0px;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.emetrio-scriptor-tab-link {
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    color: #57606a;
+    transition: all 0.2s ease;
+    outline: none;
+    flex-shrink: 0;
+}
+
+.emetrio-scriptor-tab-link:hover {
+    color: #0969da;
+}
+
+.emetrio-scriptor-tab-link.active {
+    color: #0969da;
+    border-bottom-color: #0969da;
+}
+
+/* Container Cards */
+.emetrio-scriptor-tab-content {
+    display: none;
+}
+
+.emetrio-scriptor-tab-content.active {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+
+.emetrio-scriptor-wrap .button-secondary {
+    border-radius: 6px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.emetrio-scriptor-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    margin-bottom: 25px;
+}
+
+.emetrio-scriptor-card h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f2328;
+    border-bottom: 1px solid #f0f2f5;
+    padding-bottom: 15px;
+}
+
+/* Fields & Form elements */
+.emetrio-scriptor-form-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.emetrio-scriptor-row {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.emetrio-scriptor-label {
+    font-weight: 600;
+    font-size: 14px;
+    color: #24292f;
+    margin-top: 8px;
+}
+
+.emetrio-scriptor-input-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.emetrio-scriptor-input-wrap.emetrio-scriptor-feature-image-input {
+    flex-direction: row;
+}
+
+.emetrio-scriptor-input-wrap input[type="text"],
+.emetrio-scriptor-input-wrap input[type="number"],
+.emetrio-scriptor-input-wrap input[type="date"],
+.emetrio-scriptor-input-wrap input[type="time"],
+.emetrio-scriptor-input-wrap select,
+.emetrio-scriptor-input-wrap textarea {
+    padding: 10px 14px;
+    border: 1px solid #ded8d0;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: normal;
+    color: #24292f;
+    background-color: #f6f8fa;
+    transition: all 0.2s ease;
+    /* max-width: 500px; */
+    max-width: 100%;
+    width: 100%;
+}
+
+.emetrio-scriptor-input-wrap textarea {
+    font-family: monospace;
+    min-height: 150px;
+    max-width: 100%;
+}
+
+.emetrio-scriptor-input-wrap input:focus,
+.emetrio-scriptor-input-wrap select:focus,
+.emetrio-scriptor-input-wrap textarea:focus {
+    /* background-color: #fff; */
+    border-color: #0969da;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(9, 105, 218, 0.15);
+}
+
+.emetrio-scriptor-desc {
+    font-size: 12.5px;
+    color: #57606a;
+    line-height: 1.4;
+    margin: 2px 0 6px 0;
+}
+
+/* Code Display */
+.emetrio-scriptor-code-box {
+    position: relative;
+    background: #f6f8fa;
+    padding: 18px;
+    border-radius: 8px;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 13.5px;
+    line-height: 1.5;
+    overflow-x: auto;
+    border: 1px solid #d0d7de;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.emetrio-scriptor-copy-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #d0d7de;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.emetrio-scriptor-copy-btn:hover {
+    color: #cdd6f4;
+    background: #45475a;
+}
+
+.emetrio-scriptor-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.emetrio-scriptor-badge.post {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.emetrio-scriptor-badge.get {
+    background: #e3f2fd;
+    color: #1565c0;
+}
+
+/* Logs Table */
+.emetrio-scriptor-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.emetrio-scriptor-table th,
+.emetrio-scriptor-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e1e4e8;
+    font-size: 13.5px;
+}
+
+.emetrio-scriptor-table th {
+    background-color: #f6f8fa;
+    font-weight: 600;
+    color: #24292f;
+}
+
+.emetrio-scriptor-table tr:hover {
+    background-color: #fafbfc;
+}
+
+.emetrio-scriptor-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.emetrio-scriptor-status.success::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #2e7d32;
+}
+
+.emetrio-scriptor-status.error::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #d32f2f;
+}
+
+.emetrio-scriptor-status.success {
+    color: #2e7d32;
+}
+
+.emetrio-scriptor-status.error {
+    color: #d32f2f;
+}
+
+/* Add to bottom of admin/css/admin-style.css */
+.emetrio-scriptor-logs-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.emetrio-scriptor-logs-header h2 {
+    margin: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* Buttons */
+.emetrio-scriptor-btn-primary {
+    background: #0969da !important;
+    color: #fff !important;
+    border: 1px solid rgba(27, 31, 36, 0.15) !important;
+    padding: 10px 20px;
+    border-radius: 6px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    box-shadow: 0 1px 0 rgba(27, 31, 35, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.03);
+    transition: background 0.2s;
+}
+
+.emetrio-scriptor-btn-primary:hover {
+    background: #0c57d0 !important;
+}
+
+.emetrio-scriptor-btn-secondary {
+    background: #f6f8fa;
+    color: #24292f;
+    border: 1px solid #d0d7de;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.emetrio-scriptor-btn-secondary:hover {
+    background: #f3f4f6;
+    border-color: #0969da;
+}
+
+/* Try Button in standard WordPress headers */
+.emetrio-scriptor-try-btn {
+    display: inline-flex;
+    align-items: center;
+    background: #0969da;
+    color: #ffffff !important;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: background-color 0.2s;
+}
+
+.emetrio-scriptor-try-btn:hover {
+    background: #0c57d0;
+}
+
+.dashicons-airplane:before {
+    margin-right: 4px;
+    font-size: 16px;
+    height: auto;
+}
+
+.emetrio-scriptor-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 15px;
+}
+
+/* Responsive grid */
+@media(max-width: 768px) {
+    .emetrio-scriptor-row {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .emetrio-scriptor-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+}
+
+/* inputs full width except checkboxes/radios */
+.emetrio-scriptor-input-wrap input:not([type="checkbox"]):not([type="radio"]),
+.emetrio-scriptor-input-wrap select,
+.emetrio-scriptor-input-wrap textarea,
+.emetrio-scriptor-input-wrap .wp-editor-area,
+.emetrio-scriptor-input-wrap .wp-editor-wrap {
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+/* keep checkboxes/radios compact */
+.emetrio-scriptor-input-wrap input[type="checkbox"],
+.emetrio-scriptor-input-wrap input[type="radio"] {
+    /* width: auto !important; */
+    display: inline-block !important;
+    margin-right: 8px;
+}
+
+/* small lowercase language badge */
+.emetrio-scriptor-lang-badge {
+    display: inline-block;
+    background: #f1f1f1;
+    border-radius: 4px;
+    padding: 2px 6px;
+    margin-left: 8px;
+    font-size: 12px;
+    text-transform: lowercase;
+    color: #333;
+}
+
+/* simple spinner shown inside button while generating */
+.emetrio-scriptor-inline-spinner {
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    border-top-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    animation: emetrio-scriptor-spin .8s linear infinite;
+}
+
+@keyframes emetrio-scriptor-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* keep dashicon size inside AI button */
+#emetrio-scriptor-ai-gen-btn svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Toggle Switch Styling */
+.emetrio-scriptor-switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.emetrio-scriptor-switch input {
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+}
+
+.emetrio-scriptor-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .3s;
+    border-radius: 24px;
+}
+
+.emetrio-scriptor-slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .3s;
+    border-radius: 50%;
+}
+
+.emetrio-scriptor-switch input:checked+.emetrio-scriptor-slider {
+    background-color: #0969da;
+}
+
+.emetrio-scriptor-switch input:checked+.emetrio-scriptor-slider:before {
+    transform: translateX(20px);
+}
